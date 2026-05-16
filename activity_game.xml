@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/bg_wood">
+
+    <!-- 状态条 -->
+    <TextView
+        android:id="@+id/statusText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="12dp"
+        android:gravity="center"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:textColor="@color/text_dark"
+        android:background="@color/bg_panel"/>
+
+    <!-- 棋盘 -->
+    <com.xiangqiai.engine.BoardView
+        android:id="@+id/boardView"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"/>
+
+    <!-- 搜索信息 -->
+    <TextView
+        android:id="@+id/infoText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        android:gravity="center"
+        android:textSize="11sp"
+        android:fontFamily="monospace"
+        android:textColor="@color/text_muted"
+        android:background="@color/bg_panel"
+        android:singleLine="true"
+        android:ellipsize="end"/>
+
+    <!-- 操作栏 -->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="@color/bg_panel"
+        android:padding="6dp">
+
+        <Button
+            android:id="@+id/btnUndo"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            android:layout_margin="4dp"
+            android:text="@string/btn_undo"
+            android:textColor="@android:color/white"
+            android:background="@color/btn_blue"/>
+
+        <Button
+            android:id="@+id/btnHint"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            android:layout_margin="4dp"
+            android:text="@string/btn_hint"
+            android:textColor="@android:color/white"
+            android:background="@color/btn_green"/>
+
+        <Button
+            android:id="@+id/btnNew"
+            android:layout_width="0dp"
+            android:layout_height="48dp"
+            android:layout_weight="1"
+            android:layout_margin="4dp"
+            android:text="@string/btn_new"
+            android:textColor="@android:color/white"
+            android:background="@color/btn_red"/>
+    </LinearLayout>
+
+</LinearLayout>

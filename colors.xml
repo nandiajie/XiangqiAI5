@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 木色 / 中国风背景 -->
+    <color name="bg_wood">#F5D7AA</color>
+    <color name="bg_panel">#EFCC99</color>
+
+    <!-- 文字 -->
+    <color name="text_dark">#3D2914</color>
+    <color name="text_muted">#7A5A3C</color>
+
+    <!-- 棋子色 -->
+    <color name="red_piece">#B41E1E</color>
+    <color name="black_piece">#1E1E1E</color>
+
+    <!-- 强调色 (主按钮) -->
+    <color name="accent">#A0331E</color>
+
+    <!-- 按钮 -->
+    <color name="btn_blue">#3B6EA8</color>
+    <color name="btn_green">#4A8B3F</color>
+    <color name="btn_red">#A0331E</color>
+
+    <!-- Material 主题 -->
+    <color name="colorPrimary">#A0331E</color>
+    <color name="colorPrimaryDark">#7A1E0F</color>
+    <color name="colorAccent">#4A8B3F</color>
+</resources>

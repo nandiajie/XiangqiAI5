@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">象棋大师</string>
+    <string name="subtitle">Xiangqi AI · 中国象棋人机对弈</string>
+
+    <!-- 主菜单 -->
+    <string name="your_side">选择执子</string>
+    <string name="play_red">红方先手</string>
+    <string name="play_black">黑方后手</string>
+    <string name="difficulty">AI 难度</string>
+    <string name="diff_easy">入门 · 思考 0.8 秒</string>
+    <string name="diff_normal">普通 · 思考 3 秒</string>
+    <string name="diff_hard">挑战 · 思考 6 秒</string>
+    <string name="diff_expert">大师 · 思考 15 秒</string>
+    <string name="start_game">开 始 对 弈</string>
+
+    <!-- 对弈界面 -->
+    <string name="red_turn">红方走棋</string>
+    <string name="black_turn">黑方走棋</string>
+    <string name="check">将军</string>
+    <string name="thinking">AI 思考中…</string>
+    <string name="hinting">推荐着法分析中…</string>
+    <string name="hint_suggested">AI 建议: 蓝圈所示</string>
+
+    <string name="btn_undo">悔棋</string>
+    <string name="btn_hint">提示</string>
+    <string name="btn_new">新局</string>
+
+    <!-- 结局 -->
+    <string name="game_over">对局结束</string>
+    <string name="red_wins">红方胜</string>
+    <string name="black_wins">黑方胜</string>
+    <string name="draw">和棋</string>
+    <string name="new_game">再来一局</string>
+    <string name="review">复盘</string>
+
+    <!-- 搜索信息格式 -->
+    <string name="search_info_fmt">深度 %1$d · 分 %2$d · 节点 %3$d · 用时 %4$dms · %5$dnps</string>
+</resources>
